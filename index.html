@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Saberchess Support</title>
+    <meta name="description" content="Support page for Saberchess.">
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #000;
+        --fg: #f2f2f2;
+        --muted: #a8a8a8;
+        --cyan: #00d7ff;
+        --orange: #ffb000;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: var(--bg);
+        color: var(--fg);
+        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.55;
+      }
+
+      main {
+        width: min(680px, calc(100vw - 48px));
+      }
+
+      h1 {
+        margin: 0 0 18px;
+        font-size: clamp(2rem, 8vw, 4.25rem);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      p {
+        margin: 0 0 16px;
+        color: var(--muted);
+        font-size: 1.05rem;
+      }
+
+      a {
+        color: var(--cyan);
+        text-decoration-color: var(--orange);
+        text-underline-offset: 0.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Saberchess Support</h1>
+      <p>
+        For support, questions, or feedback, contact
+        <a href="mailto:leonardo.bohac@gmail.com">leonardo.bohac@gmail.com</a>.
+      </p>
+      <p>
+        Saberchess is a chess training app with Notation, Blindfold,
+        Checkmate Attack, and Checkmate Defend modes.
+      </p>
+      <p>
+        Saberchess does not require an account and does not collect personal data.
+      </p>
+    </main>
+  </body>
+</html>
